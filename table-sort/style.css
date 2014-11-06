@@ -1,0 +1,24 @@
+table {
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid #000000;
+    text-align: center;
+}
+th {
+    cursor: pointer;
+    background: #b5bdc8;
+    background: linear-gradient(to top, #28343b 0%, #828c95 36%, #b5bdc8 100%);
+    font-size: 16px;
+    padding: 10px 20px;
+    color: #fff;
+    border: 2px solid #000;
+}
+.active {
+    background-color: #FFEBCD;
+    background: linear-gradient(to top, #b5bdc8 0%, #828c95 36%, #28343b 100%);
+}
+tr:nth-child(2n) {
+    background: #f0f0f0;
+}
+       

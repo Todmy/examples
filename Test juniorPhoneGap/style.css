@@ -1,0 +1,29 @@
+#wrapper {
+ 	height: 100%;
+ 	width: 500px;
+ 	margin: 0 auto;
+}
+#wrapper form {
+  width: 165px;
+  margin: 0 auto;
+}
+#canv-ver {
+ 	display: inline;
+ 	float: left;
+}
+#img-ver {
+  width: 250px;
+  height: 255px;
+ 	float: right;
+ 	position: relative;
+}
+#img-ver img{
+ 	position: absolute;
+ 	left: 10%;
+ 	top: 9%;
+}
+#img-ver img.arrow{
+	left: 120px;
+	top: 24px;
+  z-index: -1;
+}
